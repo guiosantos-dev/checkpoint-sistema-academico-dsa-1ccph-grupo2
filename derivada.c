@@ -14,5 +14,10 @@ int main(){
     printf("Coeficiente c: ");
     scanf("%f", &c);
 
+    printf("\nFuncao f(x) = %.1f x^2 + %.1f x + %.1f\n", a, b, c);
+ 
+    printf("Derivada f'(x) = %.1f x + %.1f", a * 2, b);
+    printf("\n==================\n");
+
     return 0;
 }
